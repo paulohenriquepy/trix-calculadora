@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1>Calculadora índice TRIX</h1>
+        <p>
+            El índice TRIX, propuesto por Vollenweider et al. (1998), sintetiza la productividad de las aguas costeras y
+            estuarinas.
+            Usa esta calculadora para estimar el estado trófico de tu zona de estudio.
+
+        </p>
+
+        <form id="form" action="/" method="POST">
+            <label for="clorofilaA">Clorofila A</label>
+            <input type="text" id="clorofilaA" name="clorofilaA">
+            <label for="saturacionOxigeno">Saturación de oxígeno</label>
+            <input type="text" id="saturacionOxigeno" name="saturacionOxigeno">
+            <label for="nitrogenoTotal">Nitrógeno Total</label>
+            <input type="text" id="nitrogenoTotal" name="nitrogenoTotal">
+            <label for="fosforoTotal">Fósforo Total</label>
+            <input type="text" id="fosforoTotal" name="fosforoTotal">
+
+
+            <button type="submit">Enviar</button>
+
+        </form>
+        <div id="resultado"></div>
+        <script src="assets/js/main.js"></script>
+
+
+
+
+
+    </section>
+
+
+</body>
+
+</html>
